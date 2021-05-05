@@ -1,0 +1,4357 @@
+fileFormatVersion: 2
+guid: 6c4c4b6dc8098d6488b0981bdbde036c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Arachnea
+  - first:
+      1: 100004
+    second: Body
+  - first:
+      1: 100006
+    second: Hair
+  - first:
+      1: 100008
+    second: HairBack001
+  - first:
+      1: 100010
+    second: HairBack002
+  - first:
+      1: 100012
+    second: HairBackIK
+  - first:
+      1: 100014
+    second: Head
+  - first:
+      1: 100016
+    second: Head_0
+  - first:
+      1: 100018
+    second: Hips
+  - first:
+      1: 100020
+    second: L_Arm
+  - first:
+      1: 100022
+    second: L_Arm_IK_Pole
+  - first:
+      1: 100024
+    second: L_Breast
+  - first:
+      1: 100026
+    second: L_Finguer_001
+  - first:
+      1: 100028
+    second: L_Finguer_002
+  - first:
+      1: 100030
+    second: L_Finguer_003
+  - first:
+      1: 100032
+    second: L_Finguer_004
+  - first:
+      1: 100034
+    second: L_Finguer_005
+  - first:
+      1: 100036
+    second: L_Finguer_006
+  - first:
+      1: 100038
+    second: L_Finguer_007
+  - first:
+      1: 100040
+    second: L_Finguer_008
+  - first:
+      1: 100042
+    second: L_Finguer_009
+  - first:
+      1: 100044
+    second: L_Finguer_010
+  - first:
+      1: 100046
+    second: L_Finguer_011
+  - first:
+      1: 100048
+    second: L_Finguer_012
+  - first:
+      1: 100050
+    second: L_Finguer_013
+  - first:
+      1: 100052
+    second: L_Finguer_014
+  - first:
+      1: 100054
+    second: L_Finguer_015
+  - first:
+      1: 100056
+    second: L_FinguerControl001
+  - first:
+      1: 100058
+    second: L_FinguerControl002
+  - first:
+      1: 100060
+    second: L_FinguerControl003
+  - first:
+      1: 100062
+    second: L_FinguerControl004
+  - first:
+      1: 100064
+    second: L_FinguerControl005
+  - first:
+      1: 100066
+    second: L_HairIK
+  - first:
+      1: 100068
+    second: L_HairStrand001
+  - first:
+      1: 100070
+    second: L_HairStrand002
+  - first:
+      1: 100072
+    second: L_HairStrand003
+  - first:
+      1: 100074
+    second: L_Hand
+  - first:
+      1: 100076
+    second: L_Leg01IK
+  - first:
+      1: 100078
+    second: L_Leg02IK
+  - first:
+      1: 100080
+    second: L_Leg03IK
+  - first:
+      1: 100082
+    second: L_Leg04IK
+  - first:
+      1: 100084
+    second: L_Leg_002
+  - first:
+      1: 100086
+    second: L_Leg_003
+  - first:
+      1: 100088
+    second: L_Leg_004
+  - first:
+      1: 100090
+    second: L_Leg_005
+  - first:
+      1: 100092
+    second: L_Leg_006
+  - first:
+      1: 100094
+    second: L_Leg_007
+  - first:
+      1: 100096
+    second: L_Leg_008
+  - first:
+      1: 100098
+    second: L_Leg_009
+  - first:
+      1: 100100
+    second: L_Leg_01
+  - first:
+      1: 100102
+    second: L_Leg_010
+  - first:
+      1: 100104
+    second: L_Leg_011
+  - first:
+      1: 100106
+    second: L_Leg_012
+  - first:
+      1: 100108
+    second: L_Shoulder
+  - first:
+      1: 100110
+    second: L_Shoulder_003
+  - first:
+      1: 100112
+    second: L_UpperArm
+  - first:
+      1: 100114
+    second: Neck
+  - first:
+      1: 100116
+    second: R_Arm
+  - first:
+      1: 100118
+    second: R_Arm_IK_Pole
+  - first:
+      1: 100120
+    second: R_Breast
+  - first:
+      1: 100122
+    second: R_Finguer
+  - first:
+      1: 100124
+    second: R_Finguer_001
+  - first:
+      1: 100126
+    second: R_Finguer_002
+  - first:
+      1: 100128
+    second: R_Finguer_003
+  - first:
+      1: 100130
+    second: R_Finguer_004
+  - first:
+      1: 100132
+    second: R_Finguer_005
+  - first:
+      1: 100134
+    second: R_Finguer_006
+  - first:
+      1: 100136
+    second: R_Finguer_007
+  - first:
+      1: 100138
+    second: R_Finguer_008
+  - first:
+      1: 100140
+    second: R_Finguer_009
+  - first:
+      1: 100142
+    second: R_Finguer_010
+  - first:
+      1: 100144
+    second: R_Finguer_011
+  - first:
+      1: 100146
+    second: R_Finguer_012
+  - first:
+      1: 100148
+    second: R_Finguer_013
+  - first:
+      1: 100150
+    second: R_Finguer_014
+  - first:
+      1: 100152
+    second: R_FinguerControl001
+  - first:
+      1: 100154
+    second: R_FinguerControl002
+  - first:
+      1: 100156
+    second: R_FinguerControl003
+  - first:
+      1: 100158
+    second: R_FinguerControl004
+  - first:
+      1: 100160
+    second: R_FinguerControl005
+  - first:
+      1: 100162
+    second: R_HairIK
+  - first:
+      1: 100164
+    second: R_HairStrand001
+  - first:
+      1: 100166
+    second: R_HairStrand002
+  - first:
+      1: 100168
+    second: R_HairStrand003
+  - first:
+      1: 100170
+    second: R_Hand
+  - first:
+      1: 100172
+    second: R_Leg
+  - first:
+      1: 100174
+    second: R_Leg01IK
+  - first:
+      1: 100176
+    second: R_Leg02IK
+  - first:
+      1: 100178
+    second: R_Leg03IK
+  - first:
+      1: 100180
+    second: R_Leg04IK
+  - first:
+      1: 100182
+    second: R_Leg_001
+  - first:
+      1: 100184
+    second: R_Leg_002
+  - first:
+      1: 100186
+    second: R_Leg_003
+  - first:
+      1: 100188
+    second: R_Leg_004
+  - first:
+      1: 100190
+    second: R_Leg_005
+  - first:
+      1: 100192
+    second: R_Leg_006
+  - first:
+      1: 100194
+    second: R_Leg_007
+  - first:
+      1: 100196
+    second: R_Leg_008
+  - first:
+      1: 100198
+    second: R_Leg_009
+  - first:
+      1: 100200
+    second: R_Leg_010
+  - first:
+      1: 100202
+    second: R_Leg_011
+  - first:
+      1: 100204
+    second: R_Shoulder
+  - first:
+      1: 100206
+    second: R_Shoulder_004
+  - first:
+      1: 100208
+    second: R_UpperArm
+  - first:
+      1: 100210
+    second: Root
+  - first:
+      1: 100212
+    second: Spine_1
+  - first:
+      1: 100214
+    second: Spine_2
+  - first:
+      1: 100216
+    second: Staff
+  - first:
+      1: 100218
+    second: Tail
+  - first:
+      1: 100220
+    second: Tail_Upper
+  - first:
+      4: 400000
+    second: Arachnea
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Body
+  - first:
+      4: 400006
+    second: Hair
+  - first:
+      4: 400008
+    second: HairBack001
+  - first:
+      4: 400010
+    second: HairBack002
+  - first:
+      4: 400012
+    second: HairBackIK
+  - first:
+      4: 400014
+    second: Head
+  - first:
+      4: 400016
+    second: Head_0
+  - first:
+      4: 400018
+    second: Hips
+  - first:
+      4: 400020
+    second: L_Arm
+  - first:
+      4: 400022
+    second: L_Arm_IK_Pole
+  - first:
+      4: 400024
+    second: L_Breast
+  - first:
+      4: 400026
+    second: L_Finguer_001
+  - first:
+      4: 400028
+    second: L_Finguer_002
+  - first:
+      4: 400030
+    second: L_Finguer_003
+  - first:
+      4: 400032
+    second: L_Finguer_004
+  - first:
+      4: 400034
+    second: L_Finguer_005
+  - first:
+      4: 400036
+    second: L_Finguer_006
+  - first:
+      4: 400038
+    second: L_Finguer_007
+  - first:
+      4: 400040
+    second: L_Finguer_008
+  - first:
+      4: 400042
+    second: L_Finguer_009
+  - first:
+      4: 400044
+    second: L_Finguer_010
+  - first:
+      4: 400046
+    second: L_Finguer_011
+  - first:
+      4: 400048
+    second: L_Finguer_012
+  - first:
+      4: 400050
+    second: L_Finguer_013
+  - first:
+      4: 400052
+    second: L_Finguer_014
+  - first:
+      4: 400054
+    second: L_Finguer_015
+  - first:
+      4: 400056
+    second: L_FinguerControl001
+  - first:
+      4: 400058
+    second: L_FinguerControl002
+  - first:
+      4: 400060
+    second: L_FinguerControl003
+  - first:
+      4: 400062
+    second: L_FinguerControl004
+  - first:
+      4: 400064
+    second: L_FinguerControl005
+  - first:
+      4: 400066
+    second: L_HairIK
+  - first:
+      4: 400068
+    second: L_HairStrand001
+  - first:
+      4: 400070
+    second: L_HairStrand002
+  - first:
+      4: 400072
+    second: L_HairStrand003
+  - first:
+      4: 400074
+    second: L_Hand
+  - first:
+      4: 400076
+    second: L_Leg01IK
+  - first:
+      4: 400078
+    second: L_Leg02IK
+  - first:
+      4: 400080
+    second: L_Leg03IK
+  - first:
+      4: 400082
+    second: L_Leg04IK
+  - first:
+      4: 400084
+    second: L_Leg_002
+  - first:
+      4: 400086
+    second: L_Leg_003
+  - first:
+      4: 400088
+    second: L_Leg_004
+  - first:
+      4: 400090
+    second: L_Leg_005
+  - first:
+      4: 400092
+    second: L_Leg_006
+  - first:
+      4: 400094
+    second: L_Leg_007
+  - first:
+      4: 400096
+    second: L_Leg_008
+  - first:
+      4: 400098
+    second: L_Leg_009
+  - first:
+      4: 400100
+    second: L_Leg_01
+  - first:
+      4: 400102
+    second: L_Leg_010
+  - first:
+      4: 400104
+    second: L_Leg_011
+  - first:
+      4: 400106
+    second: L_Leg_012
+  - first:
+      4: 400108
+    second: L_Shoulder
+  - first:
+      4: 400110
+    second: L_Shoulder_003
+  - first:
+      4: 400112
+    second: L_UpperArm
+  - first:
+      4: 400114
+    second: Neck
+  - first:
+      4: 400116
+    second: R_Arm
+  - first:
+      4: 400118
+    second: R_Arm_IK_Pole
+  - first:
+      4: 400120
+    second: R_Breast
+  - first:
+      4: 400122
+    second: R_Finguer
+  - first:
+      4: 400124
+    second: R_Finguer_001
+  - first:
+      4: 400126
+    second: R_Finguer_002
+  - first:
+      4: 400128
+    second: R_Finguer_003
+  - first:
+      4: 400130
+    second: R_Finguer_004
+  - first:
+      4: 400132
+    second: R_Finguer_005
+  - first:
+      4: 400134
+    second: R_Finguer_006
+  - first:
+      4: 400136
+    second: R_Finguer_007
+  - first:
+      4: 400138
+    second: R_Finguer_008
+  - first:
+      4: 400140
+    second: R_Finguer_009
+  - first:
+      4: 400142
+    second: R_Finguer_010
+  - first:
+      4: 400144
+    second: R_Finguer_011
+  - first:
+      4: 400146
+    second: R_Finguer_012
+  - first:
+      4: 400148
+    second: R_Finguer_013
+  - first:
+      4: 400150
+    second: R_Finguer_014
+  - first:
+      4: 400152
+    second: R_FinguerControl001
+  - first:
+      4: 400154
+    second: R_FinguerControl002
+  - first:
+      4: 400156
+    second: R_FinguerControl003
+  - first:
+      4: 400158
+    second: R_FinguerControl004
+  - first:
+      4: 400160
+    second: R_FinguerControl005
+  - first:
+      4: 400162
+    second: R_HairIK
+  - first:
+      4: 400164
+    second: R_HairStrand001
+  - first:
+      4: 400166
+    second: R_HairStrand002
+  - first:
+      4: 400168
+    second: R_HairStrand003
+  - first:
+      4: 400170
+    second: R_Hand
+  - first:
+      4: 400172
+    second: R_Leg
+  - first:
+      4: 400174
+    second: R_Leg01IK
+  - first:
+      4: 400176
+    second: R_Leg02IK
+  - first:
+      4: 400178
+    second: R_Leg03IK
+  - first:
+      4: 400180
+    second: R_Leg04IK
+  - first:
+      4: 400182
+    second: R_Leg_001
+  - first:
+      4: 400184
+    second: R_Leg_002
+  - first:
+      4: 400186
+    second: R_Leg_003
+  - first:
+      4: 400188
+    second: R_Leg_004
+  - first:
+      4: 400190
+    second: R_Leg_005
+  - first:
+      4: 400192
+    second: R_Leg_006
+  - first:
+      4: 400194
+    second: R_Leg_007
+  - first:
+      4: 400196
+    second: R_Leg_008
+  - first:
+      4: 400198
+    second: R_Leg_009
+  - first:
+      4: 400200
+    second: R_Leg_010
+  - first:
+      4: 400202
+    second: R_Leg_011
+  - first:
+      4: 400204
+    second: R_Shoulder
+  - first:
+      4: 400206
+    second: R_Shoulder_004
+  - first:
+      4: 400208
+    second: R_UpperArm
+  - first:
+      4: 400210
+    second: Root
+  - first:
+      4: 400212
+    second: Spine_1
+  - first:
+      4: 400214
+    second: Spine_2
+  - first:
+      4: 400216
+    second: Staff
+  - first:
+      4: 400218
+    second: Tail
+  - first:
+      4: 400220
+    second: Tail_Upper
+  - first:
+      43: 4300000
+    second: Head
+  - first:
+      43: 4300002
+    second: Hair
+  - first:
+      43: 4300004
+    second: Body
+  - first:
+      43: 4300006
+    second: Staff
+  - first:
+      74: 7400000
+    second: Attack_01
+  - first:
+      74: 7400002
+    second: Casting
+  - first:
+      74: 7400004
+    second: Dance_NoWeapon
+  - first:
+      74: 7400006
+    second: Dead
+  - first:
+      74: 7400008
+    second: GoDown
+  - first:
+      74: 7400010
+    second: GoUp
+  - first:
+      74: 7400012
+    second: Idle_01
+  - first:
+      74: 7400014
+    second: Idle_02
+  - first:
+      74: 7400016
+    second: Idle_Up
+  - first:
+      74: 7400018
+    second: MagicAttack_01
+  - first:
+      74: 7400020
+    second: Poses
+  - first:
+      74: 7400022
+    second: Walk_01
+  - first:
+      74: 7400024
+    second: Walk_02
+  - first:
+      74: 7400026
+    second: Wounded_HeavyHit
+  - first:
+      74: 7400028
+    second: Wounded_LightHit
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Body
+  - first:
+      137: 13700002
+    second: Hair
+  - first:
+      137: 13700004
+    second: Head
+  - first:
+      137: 13700006
+    second: Staff
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack_01
+      takeName: Attack_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Casting
+      takeName: Casting
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dance_NoWeapon
+      takeName: Dance_NoWeapon
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Dead
+      takeName: Dead
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoDown
+      takeName: GoDown
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GoUp
+      takeName: GoUp
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_01
+      takeName: Idle_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_02
+      takeName: Idle_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 299
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Up
+      takeName: Idle_Up
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MagicAttack_01
+      takeName: MagicAttack_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_01
+      takeName: Walk_01
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk_02
+      takeName: Walk_02
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wounded_HeavyHit
+      takeName: Wounded_HeavyHit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wounded_LightHit
+      takeName: Wounded_LightHit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arachnea
+        weight: 1
+      - path: Arachnea/Root
+        weight: 1
+      - path: Arachnea/Root/L_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/L_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/L_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/L_Shoulder_003
+        weight: 1
+      - path: Arachnea/Root/R_Arm_IK_Pole
+        weight: 1
+      - path: Arachnea/Root/R_Leg01IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg02IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg03IK
+        weight: 1
+      - path: Arachnea/Root/R_Leg04IK
+        weight: 1
+      - path: Arachnea/Root/R_Shoulder_004
+        weight: 1
+      - path: Arachnea/Root/Tail
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_01/L_Leg_002/L_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_004/L_Leg_005/L_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/L_Leg_007/L_Leg_008/L_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_003/R_Leg_004/R_Leg_005
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_006/R_Leg_007/R_Leg_008
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/R_Leg_009/R_Leg_010/R_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_001/L_Finguer_002/L_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_004/L_Finguer_005/L_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_007/L_Finguer_008/L_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_010/L_Finguer_011/L_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_Finguer_013/L_Finguer_014/L_Finguer_015
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/L_Shoulder/L_UpperArm/L_Arm/L_Hand/L_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBack001/HairBack002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/HairBackIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/L_HairStrand001/L_HairStrand002/L_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairIK
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/Neck/Head_0/R_HairStrand001/R_HairStrand002/R_HairStrand003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Breast
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer/R_Finguer_001/R_Finguer_002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_003/R_Finguer_004/R_Finguer_005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_006/R_Finguer_007/R_Finguer_008
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_009/R_Finguer_010/R_Finguer_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_Finguer_012/R_Finguer_013/R_Finguer_014
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl002
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl003
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl004
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/Hips/Spine_1/Spine_2/R_Shoulder/R_UpperArm/R_Arm/R_Hand/R_FinguerControl005
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/L_Leg_010/L_Leg_011/L_Leg_012
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001
+        weight: 1
+      - path: Arachnea/Root/Tail/Tail_Upper/R_Leg/R_Leg_001/R_Leg_002
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Hair
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Staff
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
