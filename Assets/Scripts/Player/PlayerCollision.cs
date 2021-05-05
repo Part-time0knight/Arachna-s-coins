@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnControllerColliderHit(ControllerColliderHit Coin)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        CoinController coinController = Coin.gameObject.GetComponent<CoinController>();
+        if (coinController)
+        {
+            Score.ScoreIncrement();
+            coinController.ItemDestroy();
+        }
     }
 }
