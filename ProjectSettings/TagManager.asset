@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Joystick
+  - Button
+  - Pause
+  - MenuController
+  - Load
   layers:
   - Default
   - TransparentFX
